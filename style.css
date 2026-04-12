@@ -26,9 +26,22 @@ radial Gradient
 
 /*} */
 
+/* :root{
+    --red: blue;
+} */
+
+:root{
+    --x:400px;
+    --y:400px; 
+}
+
+body{
+    background: url("https://wallpapercave.com/wp/wp11779134.jpg");
+    background-size: cover;
+}
 
 .box{
-    height: 400px;
-    width: 400px;
-    background-color: red;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(250px at var(--x) var(--y) , rgba(255, 255, 255, 0)80%,rgba(0, 0, 0, 0.881)) ;
 }
